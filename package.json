@@ -1,0 +1,23 @@
+{
+  "name": "backjoon-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "preferGlobal": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "readline-sync": "^1.4.10"
+  },
+  "bin": {
+    "cli": "./cli.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.1",
+    "@types/node": "^22.5.5"
+  }
+}

@@ -1,0 +1,14 @@
+{
+	"baeckjoon-node": {
+		"scope": "javascript",
+		"prefix": "js",
+		"body": [
+			"const input = require('fs').readFileSync('/dev/stdin').toString().trim();",
+			"const token = input.split(/\\s+/)[Symbol.iterator]();",
+			"const test = token.next().value",
+			"let answer = ''",
+			"console.log(answer)"
+		],
+		"description": "node js 백준 보일러플레이트입니다. "
+	}
+}
