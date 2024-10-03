@@ -13,7 +13,8 @@ program
 	.option("-s, --submit", "submit the test")
 	.action((filename, options) => {
 		if (options.input) {
-			console.log("input을 입력해주세요");
+			console.log("input을 입력해주세요 (입력을 마치려면 빈 줄을 입력하세요):");
+
 			const input = readlineSync.question("> ");
 
 			// problems 폴더 경로 설정
